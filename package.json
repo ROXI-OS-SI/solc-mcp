@@ -17,7 +17,7 @@
     "build"
   ],
   "keywords": [],
-  "author": "pilso os",
+  "author": "roxi os",
   "license": "ISC",
   "dependencies": {
     "fastmcp": "^1.21.0",
