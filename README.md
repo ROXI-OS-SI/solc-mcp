@@ -4,7 +4,7 @@
 
 It lets an agent compile Solidity source with [solc-js](https://github.com/ethereum/solc-js) and get back the ABI and bytecode, ready to deploy through [`metamask-mcp`](https://github.com/Roxi-OS/metamask-mcp) with your signature.
 
-📖 Docs: [docs.roxi.so](https://docs.roxi.so/)
+📖 Docs: [roxi-ten.vercel.app/docs/servers/solc-mcp](https://roxi-ten.vercel.app/docs/servers/solc-mcp)
 
 ---
 
