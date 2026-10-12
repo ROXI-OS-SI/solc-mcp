@@ -2,7 +2,7 @@ import { FastMCP } from "fastmcp";
 import { registerCompileSolidityTools } from "./tools/index.js";
 
 const server = new FastMCP({
-  name: "Solidity compiler",
+  name: "ROXI solc-mcp",
   version: "1.0.0",
 });
 

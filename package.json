@@ -1,11 +1,11 @@
 {
   "name": "solc-mcp",
   "version": "1.0.0",
-  "description": "MCP to compile solidity",
+  "description": "ROXI OS Solidity compiler MCP server: compiles contracts with solc-js for agent-driven deployment.",
   "type": "module",
   "main": "./build/index.js",
   "bin": {
-    "metamask": "./build/index.js"
+    "solc-mcp": "./build/index.js"
   },
   "scripts": {
     "inspect": "pnpm dlx fastmcp inspect ./src/index.ts",
@@ -16,15 +16,29 @@
   "files": [
     "build"
   ],
-  "keywords": [],
-  "author": "roxi os",
-  "license": "ISC",
+  "keywords": [
+    "roxi",
+    "roxi-os",
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "web3",
+    "ethereum"
+  ],
+  "author": "ROXI OS",
+  "license": "MIT",
   "dependencies": {
-    "fastmcp": "^1.21.0",
+    "fastmcp": "^4.22.4",
+    "solc": "^0.8.30",
     "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/node": "^22.13.17",
     "typescript": "^5.8.2"
+  },
+  "homepage": "https://docs.roxi.so/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roxi-OS/solc-mcp.git"
   }
 }

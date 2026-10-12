@@ -29,8 +29,20 @@ export function registerCompileSolidityTools(server: FastMCP): void {
           }
         }
       };
-      // @ts-ignore
       const output = JSON.parse(solc.compile(JSON.stringify(input)));
+      // Hand compiler errors back to the agent so it can fix the source.
+      const errors = (output.errors ?? []).filter((e: { severity: string }) => e.severity === "error");
+      if (errors.length) {
+        return {
+          content: [
+            {
+              type: "text",
+              text: errors.map((e: { formattedMessage: string }) => e.formattedMessage).join("\n"),
+            },
+          ],
+          isError: true,
+        };
+      }
       const result = []
 
       for (const contractName in output.contracts[fileName]) {

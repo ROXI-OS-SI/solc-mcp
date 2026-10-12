@@ -370,5 +370,6 @@ declare module "solc" {
     setupMethods (soljson: SolJson): Wrapper;
   }
 
-  export default Wrapper;
+  const solc: Wrapper;
+  export default solc;
 }
