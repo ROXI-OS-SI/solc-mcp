@@ -1,5 +1,5 @@
 {
-  "name": "solc-mcp",
+  "name": "@roxi-os/solc-mcp",
   "version": "1.0.0",
   "description": "ROXI OS Solidity compiler MCP server: compiles contracts with solc-js for agent-driven deployment.",
   "type": "module",
@@ -40,5 +40,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Roxi-OS/solc-mcp.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

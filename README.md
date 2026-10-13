@@ -34,7 +34,7 @@ Add it to your MCP client (for example Claude Desktop's `claude_desktop_config.j
   "mcpServers": {
     "solc": {
       "command": "npx",
-      "args": ["-y", "solc-mcp"]
+      "args": ["-y", "@roxi-os/solc-mcp"]
     }
   }
 }
