@@ -39,7 +39,7 @@
   "homepage": "https://roxi-ten.vercel.app/docs/servers/solc-mcp",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roxi-OS/solc-mcp.git"
+    "url": "git+https://github.com/ROXI-OS-SI/solc-mcp.git"
   },
   "publishConfig": {
     "access": "public"

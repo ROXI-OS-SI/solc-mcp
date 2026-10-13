@@ -1,8 +1,8 @@
 # 🧠 solc-mcp
 
-`solc-mcp` is the Solidity compiler module of **[ROXI OS](https://github.com/Roxi-OS)**, the Reasoning-Oriented Execution Interface for onchain agents.
+`solc-mcp` is the Solidity compiler module of **[ROXI OS](https://github.com/ROXI-OS-SI)**, the Reasoning-Oriented Execution Interface for onchain agents.
 
-It lets an agent compile Solidity source with [solc-js](https://github.com/ethereum/solc-js) and get back the ABI and bytecode, ready to deploy through [`metamask-mcp`](https://github.com/Roxi-OS/metamask-mcp) with your signature.
+It lets an agent compile Solidity source with [solc-js](https://github.com/ethereum/solc-js) and get back the ABI and bytecode, ready to deploy through [`metamask-mcp`](https://github.com/ROXI-OS-SI/metamask-mcp) with your signature.
 
 📖 Docs: [roxi-ten.vercel.app/docs/servers/solc-mcp](https://roxi-ten.vercel.app/docs/servers/solc-mcp)
 
@@ -43,7 +43,7 @@ Add it to your MCP client (for example Claude Desktop's `claude_desktop_config.j
 ### From source
 
 ```bash
-git clone https://github.com/Roxi-OS/solc-mcp.git
+git clone https://github.com/ROXI-OS-SI/solc-mcp.git
 cd solc-mcp
 pnpm install
 pnpm build
