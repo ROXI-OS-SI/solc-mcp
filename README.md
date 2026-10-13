@@ -2,9 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/@roxi-os/solc-mcp?label=npm&color=c5f24a)](https://www.npmjs.com/package/@roxi-os/solc-mcp)
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
-[![docs](https://img.shields.io/badge/docs-roxi--ten.vercel.app-black)](https://roxi-ten.vercel.app/docs/servers/solc-mcp)
+[![docs](https://img.shields.io/badge/docs-roxi--os.si-black)](https://roxi-os.si/docs/servers/solc-mcp)
 
-**The compiler module of [ROXI OS](https://roxi-ten.vercel.app)**, the Reasoning-Oriented Execution Interface.
+**The compiler module of [ROXI OS](https://roxi-os.si)**, the Reasoning-Oriented Execution Interface.
 
 `solc-mcp` lets an AI agent compile Solidity with [solc-js](https://github.com/ethereum/solc-js) and get back each contract's ABI and bytecode, ready to deploy through [`metamask-mcp`](https://github.com/ROXI-OS-SI/metamask-mcp) with your signature.
 
@@ -44,7 +44,7 @@ Write and compile a simple Greeter contract.
 Compile this contract and fix any errors: …
 ```
 
-To deploy what you compile, add [`metamask-mcp`](https://github.com/ROXI-OS-SI/metamask-mcp) too. Walkthrough: [Compile and deploy](https://roxi-ten.vercel.app/docs/guides/deploy-contract).
+To deploy what you compile, add [`metamask-mcp`](https://github.com/ROXI-OS-SI/metamask-mcp) too. Walkthrough: [Compile and deploy](https://roxi-os.si/docs/guides/deploy-contract).
 
 ---
 
@@ -81,7 +81,7 @@ ParserError: Expected type name --> Bad.sol:1:52
 - Uses the **bundled solc-js** version, so the contract's `pragma` must allow it (`^0.8.0` works).
 - Deploy the output with `deploy-contract` on `metamask-mcp`; the new address is in the receipt's `contractAddress`.
 
-Reference: [solc-mcp docs](https://roxi-ten.vercel.app/docs/servers/solc-mcp).
+Reference: [solc-mcp docs](https://roxi-os.si/docs/servers/solc-mcp).
 
 ---
 
@@ -118,7 +118,7 @@ Then point your client at the build:
 | [erc20-mcp](https://github.com/ROXI-OS-SI/erc20-mcp) | ERC-20 transfers, approvals and reads |
 | **solc-mcp** | Solidity compilation |
 
-📖 [Documentation](https://roxi-ten.vercel.app/docs) · 📦 [npm](https://www.npmjs.com/org/roxi-os)
+📖 [Documentation](https://roxi-os.si/docs) · 📦 [npm](https://www.npmjs.com/org/roxi-os)
 
 ## ⚖️ License
 

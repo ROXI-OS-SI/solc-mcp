@@ -36,7 +36,7 @@
     "@types/node": "^22.13.17",
     "typescript": "^5.8.2"
   },
-  "homepage": "https://roxi-ten.vercel.app/docs/servers/solc-mcp",
+  "homepage": "https://roxi-os.si/docs/servers/solc-mcp",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ROXI-OS-SI/solc-mcp.git"
